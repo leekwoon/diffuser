@@ -173,7 +173,6 @@ class GaussianDiffusion(nn.Module):
 
             progress.update({'t': i, 'vmin': values.min().item(), 'vmax': values.max().item()})
             if return_chain: chain.append(x)
-
         progress.stamp()
 
         x, values = sort_by_values(x, values)
