@@ -11,8 +11,6 @@ class Parser(utils.Parser):
     config: str = 'config.locomotion'
 
 args = Parser().parse_args('values')
-print(args)
-exit()
 
 #-----------------------------------------------------------------------------#
 #---------------------------------- dataset ----------------------------------#
