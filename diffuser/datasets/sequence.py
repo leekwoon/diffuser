@@ -146,3 +146,5 @@ class ValueDataset(SequenceDataset):
         value = np.array([value], dtype=np.float32)
         value_batch = ValueBatch(*batch, value)
         return value_batch
+
+
